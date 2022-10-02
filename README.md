@@ -9,12 +9,12 @@ Since, there is no patch currently - only workarounds are checked if host is vul
 
 Simple Example:
 ```
-nmap -sV -T4 -v --script=http-vuln-cve-2022 scanme.nmap.org
+nmap -sV -T4 -v --script=http-vuln-cve-2022-41082 scanme.nmap.org
 ```
 
 Faster run (large subnets):
 ```
-nmap -p443 -T4 -v --script=http-vuln-cve-2022 10.0.0.0/16
+nmap -p443 -T4 -v --script=http-vuln-cve-2022-41082 10.0.0.0/16
 ```
 
 ## Sample Output
